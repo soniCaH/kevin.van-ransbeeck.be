@@ -38,6 +38,11 @@ module.exports = {
         contentfulConfig.development :
         contentfulConfig.production
     },
-    'gatsby-plugin-netlify'
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
+      }
+    }
   ],
 }
