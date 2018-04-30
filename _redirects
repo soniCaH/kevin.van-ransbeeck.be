@@ -1,0 +1,3 @@
+# Redirect domain aliases to primary domain
+https://van-ransbeeck.be/* https://kevin.van-ransbeeck.be/:splat 301!
+https://www.van-ransbeeck.be/* https://kevin.van-ransbeeck.be/:splat 301!
